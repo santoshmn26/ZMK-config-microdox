@@ -19,8 +19,8 @@
 // |  Z  |  X  |  C  |  V  |  B   |   |  N  |  M   |  ,  |  .  |  /  |
 //             | GUI | NAV | SHFT |   | SPC | SYM  | ALT |
                         bindings = <
-   &kp a &kp W &kp E &kp R &kp T   &kp e &kp w  &kp a     &kp a   &kp a
-   &kp A &kp S &kp D &kp F &kp G   &kp H &kp f  &kp g     &kp g   &kp q
+   &kp A &kp W &kp E &kp R &kp T   &kp A &kp A  &kp D     &kp D   &kp D
+   &kp A &kp S &kp D &kp F &kp G   &kp D &kp D  &kp D     &kp D   &kp D
    &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
           &kp LGUI &mo 1 &kp LSHFT &kp SPACE &mo 2 &kp RALT
                         >;
