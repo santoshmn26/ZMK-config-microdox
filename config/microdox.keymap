@@ -35,7 +35,7 @@
    &kp HOME   &kp UP     &kp END        &kp RET     &kp KP_PLUS         &kp KP_MULTIPLY    &kp LG(LC(RIGHT))    &kp MINUS      &kp SQT     &kp F11
    &kp LEFT   &kp DOWN   &kp RIGHT      &kp DEL     &kp EQUAL           &kp LA(TAB)        &kp BSPC             &kp UNDER      &kp DQT     &kp COLON
    &kp LC(C)  &kp LC(V)  &kp CAPSLOCK   &kp BSPC    &kp BSLH            &kp F3             &kp LG(LC(LEFT))     &kp LT         &kp GT      &kp QMARK
-                            &kp LGUI   &trans    &kp TILDE     &trans   &trans   &kp LC(LA(DEL))
+                            &kp LGUI   &trans    &kp TILDE     &trans   &kp ESC   &kp LC(LA(DEL))
                         >;
                 };
 
