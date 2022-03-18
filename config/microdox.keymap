@@ -49,7 +49,7 @@
    &kp LPAR    &kp 1    &kp 2  &kp 3    &kp EXCL        &kp DOLLAR &kp PRCNT  &kp CARET &kp AMPS &kp RPAR
    &kp LBRC    &kp 4    &kp 5  &kp 6    &kp AT          &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp RBRC
    &kp LBKT    &kp 7    &kp 8  &kp 9    &kp HASH        &trans    &trans    &trans          &trans   &kp LBKT
-                       &kp LGUI  &trans    &kp LG(V)   &kp RET   &trans    &kp RALT
+                       &kp LGUI  &trans    &trans   &kp RET   &trans    &kp RALT
                         >;
                 };
 
