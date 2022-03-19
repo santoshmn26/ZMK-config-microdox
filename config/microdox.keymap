@@ -32,7 +32,7 @@
 // | BT2 |     |     |      |     |   |  \  | ENT  |      |     |      |
 //             |     |      |     |   |     |      |      |
                         bindings = <
-   &kp HOME   &kp UP     &kp END        &kp RET     &kp KP_PLUS         &kp KP_MULTIPLY    &kp LG(LC(RIGHT))    &kp MINUS      &kp SQT     &kp F11
+   &kp HOME   &kp UP     &kp END        &kp RET     &kp KP_PLUS         &kp KP_MULTIPLY    &kp LG(LC(RIGHT))    &kp MINUS      &kp SQT     &kp ESC
    &kp LEFT   &kp DOWN   &kp RIGHT      &kp DEL     &kp EQUAL           &kp LA(TAB)        &kp BSPC             &kp UNDER      &kp DQT     &kp COLON
    &kp LC(C)  &kp LC(V)  &kp CAPSLOCK   &kp BSPC    &kp BSLH            &kp F3             &kp LG(LC(LEFT))     &kp LT         &kp GT      &kp QMARK
                             &kp LGUI   &trans    &kp TILDE     &trans   &kp ESC   &kp LC(LA(DEL))
@@ -46,9 +46,9 @@
 // |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |
 //             | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp LPAR    &kp 1    &kp 2  &kp 3    &kp EXCL        &kp DOLLAR &kp PRCNT  &kp CARET &kp AMPS &kp RPAR
-   &kp LBRC    &kp 4    &kp 5  &kp 6    &kp AT          &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp RBRC
-   &kp LBKT    &kp 7    &kp 8  &kp 9    &kp HASH        &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2   &kp LBKT
+   &kp LPAR    &kp KP_N1    &kp KP_N2  &kp KP_N3    &kp EXCL        &kp DOLLAR &kp PRCNT  &kp CARET &kp AMPS &kp RPAR
+   &kp LBRC    &kp KP_N4    &kp KP_N5  &kp KP_N6    &kp AT          &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp RBRC
+   &kp LBKT    &kp KP_N7    &kp KP_N8  &kp KP_N9    &kp HASH        &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2   &kp RBKT
                        &kp LGUI  &trans    &trans   &kp RET   &trans    &kp RALT
                         >;
                 };
