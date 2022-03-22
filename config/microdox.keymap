@@ -34,8 +34,8 @@
                         bindings = <
    &kp HOME   &kp UP     &kp END        &kp RET     &kp KP_PLUS         &kp KP_MULTIPLY    &kp LG(LC(RIGHT))    &kp MINUS      &kp SQT     &kp SEMI
    &kp LEFT   &kp DOWN   &kp RIGHT      &kp DEL     &kp EQUAL           &kp LC(LA(TAB))    &kp BSPC             &kp UNDER      &kp DQT     &kp COLON
-   &kp LC(C)  &kp LC(V)  &kp CAPSLOCK   &kp BSPC    &kp BSLH            &kp F3             &kp LG(LC(LEFT))     &kp LT         &kp GT      &kp QMARK
-                            &kp LC(A)    &trans     &kp TILDE          &kp TAB  &kp ESC   &kp LC(LA(DEL))
+   &kp LC(C)  &kp LC(V)  &kp CAPSLOCK   &kp BSPC    &kp BSLH            &kp PIPE             &kp LG(LC(LEFT))     &kp LT         &kp GT      &kp QMARK
+                            &kp LC(A)    &trans     &kp TILDE          &kp LSHIFT  &kp ESC   &kp LC(LA(DEL))
                         >;
                 };
 
@@ -47,9 +47,9 @@
 //             | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp LPAR    &kp N1    &kp N2  &kp N3    &kp EXCL        &kp DOLLAR &kp PRCNT  &kp CARET &kp AMPS &kp RPAR
-   &kp LBRC    &kp N4    &kp N5  &kp N6    &kp AT          &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp RBRC
+   &kp LBRC    &kp N4    &kp N5  &kp N6    &kp AT          &kp MINUS &kp TAB &kp LBKT        &kp RBKT &kp RBRC
    &kp LBKT    &kp N7    &kp N8  &kp N9    &kp HASH        &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2   &kp RBKT
-                       &kp LS(LC(LEFT))  &kp LS(LC(RIGHT)) &kp LC(DEL)   &kp RET   &trans    &kp RALT
+                       &kp LS(LC(LEFT))  &kp LS(LC(RIGHT)) &kp LC(BSPC)   &kp RET   &trans    &kp RALT
                         >;
                 };
 
